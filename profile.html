@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAND DEWA 19</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo"><a href="#">BAND DEWA 19</a></h2>
+                <input type="checkbox" id="menu-toggler">
+                    <label for="menu-toggler" id="hamburger-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z" />
+                        </svg>
+                    </label>
+            <ul class="all-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">Story</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<body>
+    <!--TAMPILAN PROFILE-->
+    <section class="profile" id="profile">
+        <h2>Profile Dewa 19</h2>
+        <p>Dewa menyelesaikan pembuatan master album perdana mereka di Jakarta. 
+        Setelah itu, Andra, Ari, Erwin, dan Wawan kembali ke Surabaya sementara 
+        Dhani tetap di Jakarta untuk mencari label rekaman yang bersedia mengorbitkan mereka. 
+        Dhani kemudian berkeliaran di penjuru kota Jakarta, dari satu perusahaan rekaman 
+        ke perusahaan rekaman lain menggunakan bus kota</p>
+        <ul class="cards">
+            <li class="card">
+                <img src="img/download (1).jpeg" alt="img">
+                <h3>Single Pertama Dewa19</h3>
+                <p>Lagu Juliette dirilis pada (31/3) dan menjadi single pertama DEWA 19 usai vakum 12 tahun terakhir.
+                </p>
+            </li>
+            <li class="card">
+                <img src="img/download.jpeg" alt="img">
+                <h3>penghargaan</h3>
+                <p>Sepanjang perjalanan kariernya, Dewa 19 telah menerima banyak penghargaan.
+                Grup ini telah tercatat beberapa kali memperoleh penghargaan BASF Awards maupun AMI Awards. 
+                Dewa 19 juga menerima sejumlah penghargaan dari luar negeri, di antaranya 2 kali memenangkan Anugerah Planet Muzik, 
+                LibForAll Award dari LibForAll Foundation, Amerika Serikat serta penghargaan Moonman Award dari 
+                MTV Southeast Asia Viewer's Choice.[27][53][49] Pada tahun 2008, majalah Rolling Stone memasukkan 
+                Dewa 19 ke dalam "The Immortals: 25 Artis Indonesia Terbesar Sepanjang Masa". Ahmad Dhani juga menjadi 
+                salah satu artis dalam daftar tersebut. Sementara itu, Andra Ramadhan berada dalam daftar 
+                50 Gitaris Indonesia Terbaik Sepanjang Masa", sedangkan Ari Lasso dan Once Mekel masuk ke dalam 
+                50 Penyanyi Indonesia Terbaik Sepanjang Masa
+                </p>
+            </li>
+        </ul>
+        <header>
+            <div class="container">
+                <span class="close-btn">
+                <i class="fa-solid fa-xmark"></i>
+                </span>
+      
+                <div class="media-icons">
+                    <a href="https://youtube.com/Dewa19" style="background: #ff0000">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span class="tooltip" style="color: #ff0000">YouTube</span>
+                    </a>
+    
+                    <a href="https://instagram.com/officialdewa19" style="background: #ee0d7d";>
+                    <i class="fa-brands fa-instagram"></i>
+                    <span class="tooltip" style="color:#ee0d7d">Instagram</span>
+                    </a>
+    
+                    <a href="https://www.facebook.com/dewa19" style="background: #4267b2">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <span class="tooltip" style="color: #4267b2">Facebook</span>
+                    </a>
+    
+                    <a href="https://twitter.com/DE19WA" style="background: #1da1f2">
+                    <i class="fa-brands fa-twitter"></i>
+                    <span class="tooltip" style="color: #1da1f2">Twitter</span>
+                    </a>
+                </div>
+            </div>
+      
+          <script>
+            const closeBtn = document.querySelector(".close-btn");
+            closeBtn.addEventListener("click", () => {
+              closeBtn.classList.toggle("open");
+            });
+          </script>
+        </header>
+    </section>
+</body>
+</html>
